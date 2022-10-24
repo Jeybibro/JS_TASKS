@@ -4,10 +4,3 @@ let nameNumber = '1',
 alert(nameNumber);
 alert(NameNumber);
 alert(name_number);
-
-const objectA = {
-    a = 20,
-    b = true
-}
-
-const copyObjA = objectA;

@@ -16,6 +16,6 @@ console.log(time);
 
 //Третее задание
 let num = 10;
-num = ++num;
-num = ++num;
+++num;
+++num;
 alert(num);

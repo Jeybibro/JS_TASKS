@@ -9,15 +9,15 @@ alert(new_city);
 let user_pass = prompt('Логин','');
 if (user_pass == null){
     alert('Вход отменен');
-}else if(user_pass === 'Админ'){
+} else if(user_pass === 'Админ'){
     user_pass = prompt('Пароль','');
     if (user_pass == null){
         alert('Вход отменен');
-    }else if(user_pass === 'Черный Властелин'){
+    } else if(user_pass === 'Черный Властелин'){
         alert('Добро пожаловать');
-    }else{
+    } else{
         alert('Пароль неверен!');
     }
-}else {
+} else{
     alert('Я вас не знаю!');
 }

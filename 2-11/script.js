@@ -25,8 +25,8 @@ cube(5);
 
 
 //№3
-let name = 'Вася';
-function getName(name = 'Привет, гость') {
+
+function getName(name = ' гость') {
     alert(`Привет, ${name}`);
 }
-getName(name);
+getName('Вася');

@@ -11,11 +11,11 @@ function text(result) {
 text(result);
 
 //№1
-function hello(text) {
-    alert(text);
+const hello() {
+    return '«Привет, JavaScript!»';
 }
-hello('«Привет, JavaScript!»')
-
+const result = hello();
+alert(result);
 
 //№2
 function cube(num) {
